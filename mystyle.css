@@ -1,0 +1,205 @@
+@charset "UTF-8";
+body{font-family: 'Noto Serif TC', serif;}
+body nav {
+    width: 100%;
+    height: 70px;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:link  {
+    /* [disabled]background-color: #F4F4F4; */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu {
+    margin-right: 5px;
+    padding-right: 0vmax;
+    text-decoration: none;
+}
+.title h3 {
+    padding-left: 29px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.menu a:hover {
+    color: #BAE4DE;
+    font-weight: 900;
+}
+header  {
+    width: 100%;
+    height: 100vh;
+    background-image: url("photo/img1.JPG");
+    background-position: center center;
+    background-size: cover;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1 {
+    text-align: center;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+article {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+article h3 {
+    padding-left: 38px;
+    padding-bottom: 0px;
+    padding-top: 13px;
+    margin-top: 0px;
+    font-size: 28px;
+}
+.qaz {
+    background-color: #C4BCBC;
+}
+.qaz p {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 21px;
+    margin-bottom: -14px;
+}
+.container1 .left {
+    flex: 1;
+    line-height: 20px;
+    font-size: 16px;
+    /* [disabled]align-items: center; */
+    margin-right: 19px;
+    /* [disabled]justify-content: center; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.container1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+.container1 .right {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    border-radius: 10px;
+    background-size: cover;
+}
+.container2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.ph {
+    background-color: #D7D4D4;
+}
+.ph .container2 .poi {
+    padding-left: 15px;
+    font-size: 21px;
+    line-height: 35px;
+}
+.poi ol li {
+    margin-bottom: 11px;
+}
+main article p {
+    margin-left: 158px;
+    margin-right: 158px;
+    font-size: 17px;
+    line-height: 31px;
+}
+.container4 {
+    width: 80%;
+    display: flex;
+}
+.container4 .col1 {
+    flex: 1;
+}
+.container4 .col2 {
+}
+.container6 .col1 {
+    flex: 1;
+    background-image: url(photo/img5.JPG);
+    /* [disabled]width: 100%; */
+    /* [disabled]height: 100%; */
+    background-position: center center;
+    border-radius: 10px;
+    margin: 20px;
+    background-size: cover;
+    /* [disabled]align-items: flex-end; */
+}
+.container6 .col2 {
+    flex: 1;
+    background-image: url(photo/img6.JPG);
+    background-position: 69% center;
+    border-radius: 10px;
+    margin: 20px;
+    background-size: cover;
+}
+header p a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+header p a:hover {
+    color: #F0FF00;
+}
+.menu a:visited {
+    color: #F0EBBC;
+}
+main article iframe {
+}
+header p a:link  {
+    background-color: #7AC3E1;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.container6 .col3 {
+    flex: 1;
+    background-image: url(photo/img7.png);
+    background-position: 65% center;
+    border-radius: 10px;
+    margin: 20px;
+    background-size: cover;
+}
+.container6 {
+    display: flex;
+    width: 80%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container6 .colt {
+    background-color: #5E5A5A;
+    opacity: 0.8;
+    height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sdfg {
+    background-color: #BBB3B3;
+}
+.gh ol ul {
+    margin-bottom: 13px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qaz .op {
+    margin-bottom: 36px;
+}
+
+@media screen{
+}
